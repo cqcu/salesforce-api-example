@@ -6,7 +6,7 @@
     "private": true,
     "scripts": {
         "build": "tsc --pretty",
-        "start:local": "node pulldevsecrets.js && export NODE_OPTIONS='--trace-deprecation --abort-on-uncaught-exception' && export NODE_ENV=development && nodemon --config .nodemonrc.json",
+        "start:local": "export NODE_OPTIONS='--trace-deprecation --abort-on-uncaught-exception' && export NODE_ENV=development && nodemon --config .nodemonrc.json",
         "start": "export NODE_OPTIONS='--trace-deprecation --abort-on-uncaught-exception' && node ./dist/src/server.js",
         "lint": "eslint",
         "test": "jest --passWithNoTests"
