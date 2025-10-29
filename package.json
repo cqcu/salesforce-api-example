@@ -4,7 +4,6 @@
     "description": "Service to interact with Salesforce API",
     "main": "server",
     "private": true,
-    "author": "Convene",
     "scripts": {
         "build": "tsc --pretty",
         "start:local": "node pulldevsecrets.js && export NODE_OPTIONS='--trace-deprecation --abort-on-uncaught-exception' && export NODE_ENV=development && nodemon --config .nodemonrc.json",
