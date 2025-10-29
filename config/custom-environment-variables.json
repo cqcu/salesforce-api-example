@@ -1,0 +1,10 @@
+{
+    "salesforce": {
+        "clientId": "SALESFORCE_CLIENT_ID",
+        "clientSecret": "SALESFORCE_CLIENT_SECRET",
+        "username": "SALESFORCE_API_LOGIN",
+        "password": "SALESFORCE_API_PASSWORD",
+        "apiToken": "SALESFORCE_API_TOKEN",
+        "loginUrl": "SALESFORCE_API_LOGIN_URL"
+    }
+}

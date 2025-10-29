@@ -1,0 +1,11 @@
+{
+    "salesforce": {
+        "clientId": "",
+        "clientSecret": "",
+        "username": "",
+        "password": "",
+        "apiToken": "",
+        "loginUrl": ""
+    },
+    "logLevel": "error"
+}

@@ -1,0 +1,12 @@
+{
+    "salesforce": {
+        "clientId": "",
+        "clientSecret": "",
+        "username": "",
+        "password": "",
+        "apiToken": "",
+        "loginUrl": "https://test.salesforce.comfake",
+        "apiVersion": 61
+    },
+    "logLevel": "debug"
+}

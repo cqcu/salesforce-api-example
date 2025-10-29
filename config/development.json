@@ -1,0 +1,12 @@
+{
+  "salesforce": {
+    "clientId": "",
+    "clientSecret": "",
+    "username": "",
+    "password": "",
+    "apiToken": "",
+    "loginUrl": "https://test.salesforce.com"
+  },
+  "logLevel": "debug",
+  "internalHostname": ""
+}

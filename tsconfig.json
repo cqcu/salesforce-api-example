@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "types": ["node", "express"],
+        "rootDir": "./",
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "target": "es6"
+    },
+    "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"],
+    "include": ["src/**/*.ts"]
+}
